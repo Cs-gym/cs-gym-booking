@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8">
   <title>CS Gym – Prenotazioni</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
     body {
       background: #111;
@@ -17,26 +17,34 @@
       padding: 2rem;
       height: 100vh;
     }
-    h1 {
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
-    }
-    p {
-      font-size: 1.2rem;
-      max-width: 480px;
-      line-height: 1.6;
-    }
-    b {
-      color: #0fd;
+    a {
+      background: #00ffaa;
+      color: #000;
+      padding: 1rem 2rem;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 10px;
+      margin-top: 1.5rem;
     }
   </style>
+  <script>
+    // Redirect automatico (funziona solo in alcuni casi)
+    window.onload = function () {
+      setTimeout(function () {
+        window.location.replace("https://script.google.com/macros/s/AKfycbyfxMej-mJwBRGx0yzqw-Z_q3fNO7Z6wH2q1m07TW7xW7ST6rLJ8NnkCtUBSxYQfpCiiw/exec");
+      }, 500); // aspetta mezzo secondo
+    };
+  </script>
 </head>
 <body>
-  <h1>Per prenotare la tua lezione:</h1>
+  <h1>Per prenotare la tua lezione</h1>
   <p>
-    Tocca i <b>tre puntini ⋮</b> in alto a destra<br>
-    e seleziona <b>“Apri nel browser”</b> (Safari o Chrome).<br><br>
-    Questo passo è necessario per caricare correttamente la pagina di prenotazione.
+    Se non si apre automaticamente, <br>
+    tocca i <strong>tre puntini ⋮</strong> in alto a destra<br>
+    e seleziona <strong>“Apri nel browser”</strong> (Chrome o Safari).
   </p>
+  <a href="https://script.google.com/macros/s/AKfycbyfxMej-mJwBRGx0yzqw-Z_q3fNO7Z6wH2q1m07TW7xW7ST6rLJ8NnkCtUBSxYQfpCiiw/exec">
+    CLICCA QUI PER PRENOTARE
+  </a>
 </body>
 </html>
